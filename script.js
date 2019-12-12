@@ -34,7 +34,7 @@ for (i = 0; i <= 10; i++) {
 
 /* Exercice 4 Créer une fonction prenant 2 paramètres et retournant le plus grand des deux */
 
-let a = 2;
+/*let a = 2;
 let b = 3;
 
 if (b < a) {
@@ -42,4 +42,12 @@ if (b < a) {
 }
 else {
   console.log(b);
+}*/
+
+/* Exercice 5 Créer une fonction qui prenant en entrée deux paramètres A et B et retournant A puissance B */
+
+
+function power(A, B) {
+  console.log(Math.pow(A, B));
 }
+power(2, 3);
